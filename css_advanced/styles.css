@@ -1,0 +1,209 @@
+body{
+    background-image: url(./images/backgroundimage.jpeg);
+    background-repeat: repeat-x;
+}
+
+header{
+    display: flex;
+    padding-left: 8%;
+    padding-top: 3%;
+}
+
+ul,li {
+    padding-left: 45%;
+    display: inline-flex;
+    color: white;
+}
+
+#maintitle{
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 6%; 
+}
+
+#smile{
+    color: white;
+    text-align: center;
+}
+
+#registerbutton{
+    background-color: #C271FF;
+    color: #FFFFFF;
+    padding: 1%;
+    border-radius: 30px;
+    margin-left: 45%;
+    margin-top: 1%;
+}
+
+#banner{
+    display: flex;
+    margin-top: 9%;
+    margin-left: 5%;
+    justify-content: space-around;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}
+
+#bannerspan{
+    color: #C271FF;
+    /* margin-top: -5%; */
+}
+#bannertitle{
+text-align: center;
+color: #FFFFFF;
+}
+
+#quoteblock{
+    background-color: #C271FF;
+    color: #FFFFFF;
+    background-size: auto;
+    display: flex;
+    padding-left: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#quoteblocktext{
+    padding-left: 4%;
+
+}
+
+#quoteblockauthor{
+    font-weight: bold;
+}
+#videosectiontitle{
+    text-align: center;
+}
+#videosectiontitleexception{
+    color: #C271FF;
+
+}
+
+#videosection{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#video{
+display: flex;
+align-items: center;
+margin-bottom: 3%;
+}
+
+#videotitle img{
+    width: 30px;
+    height: 30px;
+}
+
+#rating{
+    display: flex;
+}
+
+#rating img{
+    margin-right: 35%;
+}
+
+#videoauthor{
+    color: #C271FF;
+    padding-left: 2%;
+}
+
+#time{
+    color: #C271FF;
+}
+
+#membershipsection{
+    background-color: #071629;
+    color: #FFFFFF;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 4%;
+}
+
+#membershipsectiontitle{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#membershipsectiontitleexception{
+    color: #C271FF;
+}
+
+#membershipsectioncontent{
+    display: flex;
+}
+
+#membershipsectioncontent img{
+    color: #C271FF;
+}
+
+#faqsectiontitle{
+    text-align: center;
+}
+
+#faqsectioncontent{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+#faqsectioncontent > div {
+    flex: 1;
+    min-width: 45%; /* Adjust the width as needed */
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #footer{
+    background-color: #071629;
+    padding-bottom: 2%;
+
+  }
+
+  #footersection{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+  }
+
+  #footercopyright{
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #FFFF;
+    color: black;
+  }
+  
+  .fa-twitter {
+     background: #FFFF;
+    color: black;
+  }
+  
+  
+  .fa-instagram {
+     background: #FFFF;
+    color: black;
+  }
